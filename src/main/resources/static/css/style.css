@@ -1,0 +1,112 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(253, 236, 249);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #d6c5f3;
+    color: black;
+    height: 30px
+}
+
+.header_flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__menu {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-top: 17px;
+}
+
+.menu__item {
+    display: flex;
+    width: 100%;
+    padding: 0 20px 20px 0;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.header__menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+th, td {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.action-button{
+    font-size: 15px;
+    display: block;
+    width: 25%;
+    padding: 10px 0;
+    background-color: #31acc2;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.as-button {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #31acc2;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 11px;
+}
+
+form {
+    width: 40%;
+}
+
+.width100 {
+    width: 100%
+}
+
+.form_header {
+    display: inline;
+}
+
+.col-left {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+}
+
+.col-right {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.form-right .form-element {
+    display: block;
+}
